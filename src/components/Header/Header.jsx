@@ -23,13 +23,13 @@ const Header = () => {
     };
       return (
     <Box sx={{ flexGrow: 1 }}>
-    <AppBar position="static" color='transparent'>
+    <AppBar position="sticky" color='transparent'>
       <Toolbar>
        <img src={logo} width={140} alt="" />
         <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
           
         </Typography>
-        <Typography variant="h6" sx={{padding:1}}>{displayName}</Typography>
+        <Typography>{displayName}</Typography>
         <IconButton
          onClick={handleClick}
          size='small'

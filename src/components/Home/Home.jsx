@@ -61,7 +61,7 @@ const Home = () => {
         <Box sx={{zIndex:2,width:'100vw'}}>     
            <Header></Header>
         </Box>
-        <Box sx={{ display: 'flex', bgcolor: '#EBEDF5',height:'100vh' }}>
+        <Box sx={{ display: 'flex', bgcolor: '#EBEDF5',height:'100vh'}}>
             <Sidebar />
             <Outlet />
         </Box>
